@@ -1,8 +1,6 @@
-module github.com/tundrik/tg
+module github.com/tundrik/tg/v2
 
-go 1.22.0
-
-toolchain go1.22.3
+go 1.22.3
 
 require (
 	github.com/dave/jennifer v1.7.0
@@ -11,6 +9,7 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/rogpeppe/go-internal v1.12.0
 	github.com/sirupsen/logrus v1.9.3
+	github.com/tundrik/tg v0.0.0-20240908193720-b7169239b38a
 	github.com/urfave/cli/v2 v2.27.4
 	github.com/valyala/fasthttp v1.55.0
 	github.com/vetcher/go-astra v1.2.0
